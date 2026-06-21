@@ -9,8 +9,6 @@
 ![Status](https://img.shields.io/badge/Status-In%20Development-orange?style=flat-square)
 ![Compute](https://img.shields.io/badge/SoC-Intel%20N100-lightgrey?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
-![Power](https://img.shields.io/badge/Input-19V%20DC%2090W-red?style=flat-square)
-[![Hack Club](https://img.shields.io/badge/Hack%20Club-Project-ec3750?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMjU2IDhDMTE5IDggOCAxMTkgOCAyNTZzMTExIDI0OCAyNDggMjQ4IDI0OC0xMTEgMjQ4LTI0OFMzOTMgOCAyNTYgOHoiLz48L3N2Zz4=)](https://hackclub.com)
 
 **A custom 100x100mm carrier board for the LattePanda Mu (Intel N100) — built as a compact, open-source NAS and home server.**
 
