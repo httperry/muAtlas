@@ -40,28 +40,6 @@ For detailed specs, see the [Schematics](./Schematics/README.md) and [BOM](./BOM
 
 ---
 
-## Repository Structure
-
-```
-μAtlas/
-├── .github/
-│   └── CONTRIBUTING.md
-├── Schematics/
-│   ├── PWR Management/
-│   ├── SO-DIMM Connections/
-│   ├── NVMe Connections/
-│   ├── SATA Connections/
-│   └── IO Connections/
-├── Resources/
-│   └── Icons/
-├── BOM.md
-├── CODE_OF_CONDUCT.md
-├── LICENSE
-└── README.md
-```
-
----
-
 ## Contributing
 
 Open an issue or pull request. Read the [Contributing Guide](./.github/CONTRIBUTING.md) for branch strategy and conventions. By participating you agree to the [Code of Conduct](./CODE_OF_CONDUCT.md).

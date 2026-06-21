@@ -19,5 +19,7 @@
 | File | Description |
 |---|---|
 | [Schematic_μAtlas_2026-06-21.png](./Schematic_%CE%BCAtlas_2026-06-21.png) | Schematic export (PNG) |
+| [SATA Ports.svg](./SATA%20Ports.svg) | Schematic export (SVG) |
+| [SATA Ports.pdf](./SATA%20Ports.pdf) | Schematic export (PDF) |
 | [SCH_μAtlas_2026-06-21.json](./SCH_%CE%BCAtlas_2026-06-21.json) | EasyEDA source (JSON) |
 | [SATA Ports.schdoc](./SATA%20Ports.schdoc) | Schematic document |
