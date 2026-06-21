@@ -2,7 +2,15 @@
 
 # PWR Management
 
-19V DC input stepped down to a 5V heavy rail and a 3.3V logic rail via dual AP64500SP-13 synchronous buck converters.
+![Status](https://img.shields.io/badge/Schematic-Complete-brightgreen?style=flat-square)
+![Revision](https://img.shields.io/badge/REV-1.0-blue?style=flat-square)
+![EDA](https://img.shields.io/badge/EDA-EasyEDA-informational?style=flat-square)
+
+**Revision 1.0** — Drawn by httperry · HackClub Macondo · 2026-06-20
+
+---
+
+## Schematic
 
 ![PWR Management Schematic](./PWR_Management.png)
 

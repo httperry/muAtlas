@@ -2,6 +2,22 @@
 
 # SATA Connections
 
-![Status](https://img.shields.io/badge/Status-In%20Progress-orange?style=flat-square)
+![Status](https://img.shields.io/badge/Schematic-Complete-brightgreen?style=flat-square)
+![Revision](https://img.shields.io/badge/REV-1.0-blue?style=flat-square)
+![EDA](https://img.shields.io/badge/EDA-EasyEDA-informational?style=flat-square)
 
-Dual 22-pin right-angle SATA connector schematic. In progress.
+**Revision 1.0** — Drawn by httperry · HackClub Macondo · 2026-06-21
+
+---
+
+## Schematic
+
+![SATA Ports Schematic](./Schematic_μAtlas_2026-06-21.png)
+
+## Downloads
+
+| File | Description |
+|---|---|
+| [Schematic_μAtlas_2026-06-21.png](./Schematic_%CE%BCAtlas_2026-06-21.png) | Schematic export (PNG) |
+| [SCH_μAtlas_2026-06-21.json](./SCH_%CE%BCAtlas_2026-06-21.json) | EasyEDA source (JSON) |
+| [SATA Ports.schdoc](./SATA%20Ports.schdoc) | Schematic document |
