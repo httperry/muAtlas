@@ -3,7 +3,7 @@
 # Schematics
 
 ![EDA](https://img.shields.io/badge/EDA-EasyEDA-brightgreen?style=flat-square)
-![Modules](https://img.shields.io/badge/Modules-5-blue?style=flat-square)
+![Modules](https://img.shields.io/badge/Modules-9-blue?style=flat-square)
 
 EasyEDA schematic sheets for Project μAtlas, one folder per functional module.
 
