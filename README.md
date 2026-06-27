@@ -38,13 +38,7 @@ For detailed specs, see the [Schematics](./Schematics/README.md) and [BOM](./BOM
 | PCB Layout & Routing | ![Planned](https://img.shields.io/badge/Status-Planned-lightgrey?style=flat-square) | — |
 | Enclosure | ![Planned](https://img.shields.io/badge/Status-Planned-lightgrey?style=flat-square) | — |
 
----
 
-## Contributing
-
-Open an issue or pull request. Read the [Contributing Guide](./.github/CONTRIBUTING.md) for branch strategy and conventions. By participating you agree to the [Code of Conduct](./CODE_OF_CONDUCT.md).
-
----
 
 ## License
 
