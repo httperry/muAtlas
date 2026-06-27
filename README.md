@@ -34,7 +34,7 @@ For detailed specs, see the [Schematics](./Schematics/README.md) and [BOM](./BOM
 | SATA Connections | ![Complete](https://img.shields.io/badge/Schematic-Complete-brightgreen?style=flat-square) | [View](./Schematics/SATA%20Connections/README.md) |
 | SO-DIMM Connections | ![In Progress](https://img.shields.io/badge/Status-In%20Progress-orange?style=flat-square) | [View](./Schematics/SO-DIMM%20Connections/README.md) |
 | NVMe Connections | ![Complete](https://img.shields.io/badge/Schematic-Complete-brightgreen?style=flat-square) | [View](./Schematics/NVMe%20Connections/README.md) |
-| IO Connections | ![In Progress](https://img.shields.io/badge/Status-In%20Progress-orange?style=flat-square) | [View](./Schematics/IO%20Connections/README.md) |
+| IO Connections | ![Complete](https://img.shields.io/badge/Schematic-Complete-brightgreen?style=flat-square) | [View](./Schematics/IO%20Connections/README.md) |
 | PCB Layout & Routing | ![Planned](https://img.shields.io/badge/Status-Planned-lightgrey?style=flat-square) | — |
 | Enclosure | ![Planned](https://img.shields.io/badge/Status-Planned-lightgrey?style=flat-square) | — |
 
