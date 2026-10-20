@@ -247,12 +247,12 @@ My next Journal will include the list of schematics I updated and also a sneek p
 
 Adios!
 
-# 2026-06-29: Finished Power Connections on PCB
+# 2026-06-29: Finished Power Connection Rails on PCB
 
 **Total time spent: 11.5 hours**
 
 Hey there,
-I have been working the whole day as today was my holiday and I managed to connect together all the power lines properly, and I am discovering how to make sure there is proper tolerance for the SATA, PCIe, HDMI lines
+I have been working the whole day as today was my holiday and I managed to connect together all the power lines properly, and I am discovering how to make sure there is proper tolerance for the SATA, PCIe, HDMI lines. I also managed to channel the input power into the respective converters and created power rails on the board for 19V for the LattePanda Mu and other 5V and 3.3V rails too
 
 I have also made a few revisions in the schematics as there are few locations where I had accidentally placed capacitors in series where it should have been in parallel (You can see those in the SATA Schematics below, I have capacitors in series for power input)
 
@@ -267,5 +267,31 @@ This is how the PCB looks now:
 The PCB is also going to be of 6 Layers at minimum, I will see if I need more layers, and most probably I may need to upgrade it to 8 layers, like I can manage somehow to make it possible in 6 layers but that will be micromanaging
 
 That's it for today and I may not be able to post any entries as my school exams are coming close, I will try my best to balance the work but ggs
+
+Adios!
+
+# 2026-10-12: Finished Ethernet Controller Connections and started work on HDMI port
+
+**Total time spent: 6 hours**
+
+Yallo!
+
+I picked up this project back after soo many months atp :cryin:
+
+So today I started my work by completing the left over connections of the Ethernet controller, and even managed to route back the PCIe transmit and receive differential pairs back to the LattePanda Mu SODIMM connector, while making sure to place the 0.1μF AC coupling capacitors right next to the driver to prevent DC offsets, I haven't done the differential pair length tuning part but I'll do that at the end :oke:
+
+Moving on I started routing the HDMI port and it's controller chip (I heard this is the hardest thing to do in the PCB :prayer:) and managed to connect the TMDS/FRL clock and data pairs (D0, D1, D2) between the controller and the connector. The only problem I had over there was that there wasn’t enough space to place the pull up resistors and the decoupling capacitors… but sumhow I managed to cram it together (That’ll come to bite me back soon…) :uuh:
+
+I then dared to even open up the DRC… Let’s just say…. goddayum. THERE WERE 1200+ ERRORS, most of which were due to incorrectly setting the DRC rules, which I then fixed by putting the correct values allowed for manufacturing by JLCPCB and it reduced by half but still about 500 issues :ok-cry:
+
+I’ll get down to fix those first thing tomorrow, that’s it for today
+
+Also I shifted my project to EasyEDA Pro from the standard edition because it was so bad at differential pair routing for advanced boards, so basically an upgrade of tools :oke: (Man slack emojis should be allowed to be added to journals)
+
+Here’s how the board looks now with the changes near the Ethernet controller region
+
+![image](https://cdn.hackclub.com/01a15902-0ad1-718d-aca5-c9bfbd3013fe/Screenshot%202026-10-20%20at%204.24.49%E2%80%AFPM.png)
+
+![image](https://cdn.hackclub.com/01a15902-09c6-7236-9c5c-db39b7fddaed/Screenshot%202026-10-20%20at%204.25.06%E2%80%AFPM.png)
 
 Adios!
