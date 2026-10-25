@@ -20,7 +20,8 @@
 
 ## Overview
 
-Project μAtlas is a custom PCB carrier board for the LattePanda Mu compute module. It fits a full NAS build — dual SATA drives, NVMe cache, 2.5GbE, Wi-Fi, and USB 3.2 — onto a 100x100mm footprint. Designed in EasyEDA as a Hack Club project.
+Project μAtlas is a custom PCB carrier board for the LattePanda Mu compute module. It includes an I/O of HDMI ports, SATA ports, NVMe Ports for Stoarge and Networking, and USB ports :oke:
+The project was designed in mind to use as a home server and running VMs, NAS, etc. on it
 
 For detailed specs, see the [Schematics](./Schematics/README.md), [PCB](./PCB/README.md), and [BOM](./BOM/README.md).
 
