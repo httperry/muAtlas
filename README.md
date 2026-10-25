@@ -14,7 +14,7 @@
 
 ---
 
-**Navigate:** [Schematics](./Schematics/README.md) · [PCB](./PCB/README.md) · [BOM](./BOM/README.md) · [Resources](./Resources/README.md) · [Contributing](./.github/CONTRIBUTING.md) · [Code of Conduct](./CODE_OF_CONDUCT.md)
+**Navigate:** [Schematics](./Schematics/README.md) · [PCB](./PCB/README.md) · [BOM](./BOM/README.md) · [Resources](./Resources/README.md) 
 
 ---
 
