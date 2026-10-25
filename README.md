@@ -10,7 +10,7 @@
 ![Compute](https://img.shields.io/badge/SoC-Intel%20N100-lightgrey?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
 
-**A custom 100x100mm carrier board for the LattePanda Mu (Intel N100) — built as a compact, open-source NAS and home server.**
+**A custom carrier board for the LattePanda Mu (Intel N100) - built as a compact, open-source NAS and home server.**
 
 ---
 
