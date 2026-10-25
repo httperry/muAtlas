@@ -8,8 +8,6 @@
 ![Stackup](https://img.shields.io/badge/Stackup-6%20Layers-blue?style=flat-square)
 ![Dimensions](https://img.shields.io/badge/Dimensions-100x100mm-brightgreen?style=flat-square)
 
-Custom PCB layout, component placement, high-speed differential routing, and production fabrication files for Project μAtlas, designed in EasyEDA Pro for JLCPCB manufacturing.
-
 ---
 
 ## Board Preview
@@ -26,21 +24,9 @@ Detailed board screenshots and 3D preview renders from EasyEDA Pro are saved in 
 
 ---
 
-## Specifications
-
-| Parameter | Specification | Notes |
-|---|---|---|
-| **Form Factor** | 100 x 100 mm | Standard square carrier board form factor |
-| **Layer Count** | 6 Layers | Top, Inner 1, Inner 2, Inner 3, Inner 4, Bottom with solid ground planes |
-| **High-Speed Interfaces** | PCIe Gen 3.0, 2.5GbE, HDMI 2.0, USB 3.2 Gen 2 | Length-tuned differential pairs with AC coupling capacitors |
-| **Power Rails** | 19V SYS, 5V, 3.3V, 0.9V (Ethernet PHY), 1.5V (USB Hub) | Decoupled with localized ceramic capacitor arrays |
-| **EDA Tool** | EasyEDA Pro | Migrated from Standard for advanced differential pair routing |
-
----
-
 ## Manufacturing & Assembly Files
 
-Production-ready manufacturing packages for ordering PCB fabrication and SMT assembly:
+Production packages for ordering PCB fabrication and SMT assembly:
 
 | File | Type | Description |
 |---|---|---|
