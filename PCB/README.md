@@ -5,8 +5,6 @@
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=flat-square)
 ![Fabrication](https://img.shields.io/badge/Fabrication-Ready-brightgreen?style=flat-square)
 ![EDA](https://img.shields.io/badge/EDA-EasyEDA%20Pro-informational?style=flat-square)
-![Stackup](https://img.shields.io/badge/Stackup-6%20Layers-blue?style=flat-square)
-![Dimensions](https://img.shields.io/badge/Dimensions-100x100mm-brightgreen?style=flat-square)
 
 ---
 
