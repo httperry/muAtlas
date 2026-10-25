@@ -23,3 +23,4 @@
 | [Schematic_Atlas_2026-06-26.pdf](./Schematic_Atlas_2026-06-26.pdf) | Schematic export (PDF) |
 | [SCH_μAtlas_2026-06-26.json](./SCH_%CE%BCAtlas_2026-06-26.json) | EasyEDA source (JSON) |
 | [IO_USB.schdoc](./IO_USB.schdoc) | Schematic document |
+| [87e84a7d-4a42-41b4-bb6e-7de45a3cd594-0005.png](../87e84a7d-4a42-41b4-bb6e-7de45a3cd594-0005.png) | EasyEDA Pro multi-sheet export (PNG) |

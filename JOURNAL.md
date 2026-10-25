@@ -73,9 +73,13 @@ Adíos
 I just initialized and set up the GitHub Repository:
 https://github.com/httperry/muAtlas
 
+I added a basic ReadMe to the repo from a template that I use in all my other projects and then I added the project icon, added a good description, and all the files of the work done till now in the GitHub repo
+
 ![image](https://cdn.hackclub.com/019ee916-7fda-7a9c-823c-fd7db6c15d4b/Screenshot%202026-06-21%20at%201.00.19%E2%80%AFPM.png)
 
-That's it
+That's it for today
+
+Adios
 
 # 2026-06-21: SATA Connectors Schematic Finished & More Exported Formats added on GitHub
 
@@ -103,8 +107,8 @@ Adíos
 
 **Total time spent: 7 hours**
 
-Hello everyone,
-So today I worked on the M.2 E-Key Slot which I will be using to connect WiFi/Bluetooth cards or Coral TPUs or 4G Networking cards in the future
+Hola again,
+Today I have been working since the morning and I have finshed adding THe M.2 NVMe E-key port schematic as it is necessary to add any Networking cards in the future
 
 I chose a normal M.2 E-key port on LCSC but I was a bit confused when I tried to find M.2 Ports because why are there so many types of M.2 ports but a little research revealed that each one is made with different task in mind and the ports are for general use and not assigned for any task. At the end I chose `APCI01083-P001A` cause it just works
 
@@ -122,115 +126,137 @@ Adíos
 
 **Total time spent: 7.5 hours**
 
-Hey guys!
-So I was working on the M.2 M-key port, for which I chose `APCI0081-P002A` from LCSC. The M.2 M-Key is capable of carrying up to 4x PCIe Gen 3.0 Lanes, but wait does the LattePanda Mu have enough PCIe Lanes for all that?
+Hi again,
+Today I worked on the M.2 M-Key ports and I have nearly finished them I just need to add a few capacitors to stabilize the currents for the NVMe drives. Other than that I also need to figure out how to use the PCIe lanes to add the fast speed USB ports to it. I chose this part for the NVMe M.2 M-Key port: `APCI0107-P001A_C7498140` (C7498140) from LCSC
 
-The LattePanda Mu has 9x PCIe Lanes:
-1. 2x PCIe Lanes for SATA (SATA 0 & SATA 1)
-2. 1x PCIe Lane for 5G Ethernet Port (RTL8126-CG)
-3. 1x PCIe Lane for M.2 E-Key Port
-4. 4x PCIe Lanes for M.2 M-Key Port
+![image](https://cdn.hackclub.com/019ef018-07d1-7b32-9277-fd8a94480fed/1.png)
 
-I am left with 1x PCIe Lane remaining. I also have to add 4x USB 3.0 ports which require USB 3.0 or PCIe lanes, which LattePanda Mu doesn't provide enough. It only provides 2x USB 3.0 ports. For that I can use a PCIe to USB 3.0 Controller chip like `VL805` from VIA Labs which converts 1x PCIe Lane into 4x USB 3.0 Ports! Isn't that cool!?
+I am thinking of using a USB Hub Chip like `UPD720201K8-701-BAC-A` (C355375) to manage the USB 3.0 Ports but I am not sure if this will work because I haven't referred to it's Datasheet yet
 
-Here are the schematics that I have done so far for the M.2 M-Key Port:
-![image](https://cdn.hackclub.com/019ef06f-1ee4-71cf-8a7e-1a0690060938/Screenshot%202026-06-22%20at%209.38.30%E2%80%AFPM.png)
+Anyways here is the schematic of the M.2 NVMe M-key port I added that is still incomplete:
 
-Adíos!
+![image](https://cdn.hackclub.com/019ef018-2473-71d4-8614-b72b921f0d35/2.png)
+
+Back I go working
+
+Adíos
 
 # 2026-06-23: Finished M.2 M-key Ports
 
 **Total time spent: 3 hours**
 
-Hey there,
-I just wrapped up with the M.2 M-key Ports and ready to move onto the next parts of the circuit, which includes:
-1. 5G Ethernet Port (Using RTL8126-CG)
-2. HDMI Port
-3. USB 3.0 Ports (4x USB 3.0 using VL805)
-4. USB 2.0 Ports (4x USB 2.0 using FE1.1s)
-5. SO-DIMM Connector for the LattePanda Mu
+Buendos Dias amigos,
+Today I woke up and I have finished the schematic of the M.2 M-key port I was working yesterday. I have also started researching on the USB Controller and I chose a 3.0 speed one cause LCSC doesn't have any cheap USB 3.2 ones yet
 
-Here is the finished schematic for the M.2 M-Key Port:
-![image](https://cdn.hackclub.com/019ef2a2-e64e-72c1-be56-0775a7df427e/Screenshot%202026-06-23%20at%207.08.06%E2%80%AFAM.png)
+The finished schematics have been uploaded to GitHub and the repository has been updated too:
+
+![image](https://cdn.hackclub.com/019ef221-08e9-7c41-bc83-daf499f143c7/29399.png)
 
 Adios!
 
 # 2026-06-23: Started Schematics for IO and finished a part of it (Ethernet)
 
-**Total time spent: 10 hours**
+**Total time spent: 8 hours**
 
-Hey there,
-So today I started with the Ethernet port and completed its schematic. I was skeptical about what I should use first, so I decided to use `RTL8125BG-CG` which is a 2.5G Ethernet Controller chip, and later I can upgrade it to `RTL8126-CG` which is a 5G Ethernet Controller chip if required.
+Halo!
+I worked the whole day and finished the schematics of the Ethernet port, I was really confused in this and spent a lot more time than I anticipated on what I thought would be simple
 
-I will also be using `DG48001 G` as the RJ45 Ethernet Jack with integrated magnetics for simplicity and ease of routing. I found the reference design online and followed it, and here is what I have made till now:
+I chose a 2.5G Ethernet Magentics Jack (`RT7-174AAM1A`) which I paired with a Realtek 2.5G Ethernet Controller (`RTL8125BG-CG`), both of their images are provided below. Also the ethernet controller variant available on LCSC was only the one without an internal voltage regulator so I had to add another buck converter to convert 3.3V to 0.9V. LCSC has a very poor avaliability of Ethernet ports greater than 1G, either they are hard to find or they are too expensive! I checked mouser and digikey but outsourcing would be more costlier, Here are the images of the parts I chose:
 
-![image](https://cdn.hackclub.com/019ef586-cfdf-74f4-9b3d-1a896f7c32b5/Screenshot%202026-06-23%20at%208.23.00%E2%80%AFPM.png)
+![image](https://cdn.hackclub.com/019ef4fa-c0d6-74da-adb9-a9ad609317c1/1.png)
 
-Adios!
+![image](https://cdn.hackclub.com/019ef4fa-d5aa-7e1a-8077-668649beab14/2.png)
+
+It was by far the most complex schematic yet in this project and I am eager to work on that big 100+ pins SO-DIMM connector (:pepepray:). Here are the schematics of the Ethernet Connector I finished:
+
+![image](https://cdn.hackclub.com/019ef4fa-eeab-7514-b476-191ef415ed2d/3.png)
+
+I have updated the GitHub with the new schematics and I will probably continue working on the IO Schematics tomorrow 
+
+Adios
 
 # 2026-06-24: Research, Research and... Research
 
 **Total time spent: 4 hours**
 
-Hey there,
-So today I was mostly researching about the HDMI and USB ports that I have to implement. I have to implement 4x USB 3.0 ports, 4x USB 2.0 ports and 1x HDMI Port.
+Today I dedicate my day for research as I had school in the morning too, not much work done but I figured out that I am left with about 1 PCIe Gen 3 lane that I can use with a USB controller and use USB 3.2 with USB 3.0 Speeds
 
-For the USB 3.0 ports, I will be using `VL805` from VIA Labs which will convert 1x PCIe Lane into 4x USB 3.0 Ports. For the USB 2.0 ports, I will be using `FE1.1s` which will convert 1x USB 2.0 Port into 4x USB 2.0 Ports.
+![image](https://cdn.hackclub.com/019efa8d-f5f3-7bb6-8714-44946889f78b/29588.jpg)
 
-I was also looking into the HDMI Port implementation and I found that I can directly route the HDMI signals from the LattePanda Mu to the HDMI Port with proper ESD Protection and Level Shifters.
+I'm hitting the beds for the day
 
-Adios!
+Adios
 
-# 2026-06-26: Finished all USB Connectors
+# 2026-06-26: Finishing USB Connections - Part 1
 
-**Total time spent: 14 hours**
+**Total time spent: 4 hours**
 
-Hey there,
-Today was a very productive day as I spent 14 hours and finished all the USB Connectors and their schematics!
+Hola!
+Yesterday I had some school work that I had to finish and I couldn't work on the USB schematics. Till now you may know that we have `2x` USB 3.2 ports and `4x` USB 2.0 Ports in which the USB 2.0 connect directly to the pins of the LattePanda Mu 260-pin Connector, while for the faster speeds of USB 3.2 we need to use a PCIe Lane for the USB ports. We even had an earlier plan of using 2x USB-C ports but I thought that it may not be needed in a Server Environment and it would also save space if we removed that
 
-I finished:
-1. `4x` USB 3.0 Ports using `VL805-Q6`
-2. `4x` USB 2.0 Ports using `FE1.1s`
+![image](https://cdn.hackclub.com/019f0488-5edc-758b-837e-47e70383b050/Screenshot%202026-06-26%20at%208.54.27%E2%80%AFPM.png)
 
-I also added proper ESD Protection for all the USB ports and power switches to provide up to 2A per port safely without frying the board if something shorts out.
+Moving forward, I started with the schematics of the USB connections, and managed to route the USB 2.0 connections along with their ESD diodes for static protection and managed to finish the schematics:
 
-Here are the schematics:
+![image](https://cdn.hackclub.com/01a16c7c-5539-7b58-8e39-dd8344b28851/Screenshot%202026-10-24%20112655.png)
 
-![image](https://cdn.hackclub.com/019f03c4-4bf8-71e1-9ea6-848e3e4a3aa8/Screenshot%202026-06-26%20at%208.54.49%E2%80%AFPM.png)
-
-![image](https://cdn.hackclub.com/019f03c4-a035-777e-a0bf-650a3cf128ec/Screenshot%202026-06-26%20at%208.55.12%E2%80%AFPM.png)
+Imma continue working on the USB 3.2 schematic for now
 
 Adios!
+
+# 2026-06-26: Finishing USB Connections - Part 2
+
+**Total time spent: 7.5 hours**
+
+Hola!
+
+Soo continuing from where I left off, I went ahead with creating the schematics for the USB 3.2 ports and it's controller chip (which took me ages to do :fear:), the ESD diodes for the USB 2.0 ports were a bit easy to route but it was soo confusing to work with the ESD diodes for the 3.2 ports. After that I started routing the USB 3.2 Controller (for which I had to add another buck converter to create a 1.5V rail) and managed to finish it fully. Now ig the whole schematic is done for the USB part
+
+![image](https://cdn.hackclub.com/019f0488-b0b3-79c8-8ecb-1e360fbae0fd/1.png)
+
+For controlling `2x` USB 3.2 Gen 2 Ports we use a single PCIe Gen 3.0 x1 Lane by using a USB Controller - `UPD720201K8-701-BAC-A` (C355375), I mean yeah it needs an external Flash memory chip and also an external voltage regulator for it's internal 1.5V power, but it is the best fit I could find on LCSC that was currently in stock and available 
+
+![image](https://cdn.hackclub.com/019f0488-e771-71f0-b425-3f39f71e8e45/2.png)
+
+I will be continuing on finishing the schematics of the remaining IO connectors tomorrow, which includes the HDMI port, and then we move onto the last stage of the schematics... (*Drumroll.....*) the 260-pin SO-DIMM Connector!
+
+That's it for today, Adios!
 
 # 2026-06-27: Finished Schematics for HDMI Port
 
 **Total time spent: 8 hours**
 
-Hey there,
-Today I finished the HDMI Port schematics. The LattePanda Mu provides DDI (Digital Display Interface) signals which can be directly converted into HDMI 2.0 signals using proper level shifting and ESD protection.
+Hello people,
+Today I have a holiday and I am utlilizing it to the fullest, I am currently finished with the HDMI Port Connections and it was quite easier than the rest. Actually the current schematic I have uploaded on GitHub is a revised one as the earlier one was missing a MOSFET chip to control the display during sleep
 
-I chose `AZ1065-06F` for high-speed ESD protection on TMDS lines and a standard HDMI Type-A connector.
+The chip I chose for this was `TPD12S016RKTR` (C165140) a fair enough chip that also provides support for CEC if the hardware supports it. It is paired with `HDMI-001S` - A simple HDMI-A port that is widely available on LCSC
 
-Here is the completed schematic for the HDMI Port:
+![image](https://cdn.hackclub.com/019f0987-e3e8-7109-aa69-fe98d35cfbff/1.png)
 
-![image](https://cdn.hackclub.com/019f0907-8850-7f28-9759-4556488d575c/Screenshot%202026-06-27%20at%208.12.01%E2%80%AFPM.png)
+Now I will move onto the SO-DIMM Connector, which is the most important part of this project... (*Wish me luck*)
 
-Adios!
+Anyways, here is the completed schematic
+
+![image](https://cdn.hackclub.com/019f0987-fb1b-787e-8a59-e38ce6a65f8c/2.png)
+
+Adios
 
 # 2026-06-27: Started Schematic for SO-DIMM Connector
 
 **Total time spent: 8 hours**
 
 Hey there,
-Today I started working on the most crucial part of the whole board: the 260-Pin SO-DIMM connector for the LattePanda Mu SoM itself!
+I am writing this in hurry as I have to be in bed soon, I have added power lines (19V and GND) to the SO-DIMM slot and I am following the official Pin-Out available in the [LattePanda Mu Pinout XLSX](https://github.com/LattePandaTeam/LattePanda-Mu/blob/main/Electricals/Pinouts/LattePanda_Mu_Edge_Connector_Pinout.xlsx). At first I was shocked to see such a huge pinout then I realized the pinout is divided into different sheets (Like yay for organization but :despair:)
 
-It took hours just to map all the pins, group them by interfaces (PCIe, Power, DDI, SATA, USB, GPIOs, Control Signals), and verify them against the LattePanda Mu pinout documentation.
+![image](https://cdn.hackclub.com/019f0a2c-7143-770b-933e-d0461464640d/Screenshot%202026-06-27%20at%2011.11.44%E2%80%AFPM.png)
 
-Here is the progress on the SO-DIMM connector:
+Here is what I have completed and I will be posting new updates tomorrow:
 
-![image](https://cdn.hackclub.com/019f09ad-16df-7f9a-9e12-d81238479e82/Screenshot%202026-06-27%20at%2011.11.45%E2%80%AFPM.png)
+![image](https://cdn.hackclub.com/019f0a2b-f704-715d-8d55-6a6963e00852/Schematic_Atlas_2026-06-27(1).png)
 
-Adios!
+*Note that the schematic is not finished yet, I have just started and thew connections are unpolished*
+
+Adios
 
 # 2026-06-28: Finished Schematics for the SO-DIMM Connector
 
@@ -247,14 +273,18 @@ My next Journal will include the list of schematics I updated and also a sneek p
 
 Adios!
 
-# 2026-06-29: Finished Power Connection Rails on PCB
+# 2026-06-29: Finished Power Connection Rails on PCB and started work on PCB
 
-**Total time spent: 11.5 hours**
+**Total time spent: 8 hours**
 
 Hey there,
 I have been working the whole day as today was my holiday and I managed to connect together all the power lines properly, and I am discovering how to make sure there is proper tolerance for the SATA, PCIe, HDMI lines. I also managed to channel the input power into the respective converters and created power rails on the board for 19V for the LattePanda Mu and other 5V and 3.3V rails too
 
 I have also made a few revisions in the schematics as there are few locations where I had accidentally placed capacitors in series where it should have been in parallel (You can see those in the SATA Schematics below, I have capacitors in series for power input)
+
+![image](https://cdn.hackclub.com/01a16c90-b6a3-7c3d-a1dd-832f9d1adc11/Screenshot%202026-10-24%20114915.png)
+
+I started working on the PCB, and managed to move major components inside the board at the loacations I liked, I then started connecting the power connections on the SATA ports and ig the only thing remaining in that is the differentail pairs, moving on I started working on the Ethernet Controller and managed to connect a good chunk of it, yet I haven't connected it to the port. I then connected the switches at the top for controlling the power and reset buttons
 
 This is how the PCB looks now:
 
@@ -331,3 +361,29 @@ Then I moved onto the next major thing on board which is the USB connections, am
 That's it for today!
 
 Adios!
+
+# 2026-10-23: Finished work on PCB completely and removed USB 3.2 from the board
+
+**Total time spent: 5 hours**
+
+Yallo!
+
+So today, I sat down and decided to remove the USB 3.2 ports cause it would have taken too much time to route and connect with all the mess on the board, I decided to remove it and continue working on the board properly (ik it's sad but I have too much load on me rn :cryin:) then I started routing the remaining SATA differentail pairs and the USB 2.0 differential pairs on board and pretty much I was done
+
+I then continued to remove the old mounting holes from the board and added new ones of 2mm diameter so that later I can add it in an enclosure
+
+There were a few issues with a few caps in the schematics but I fixed them (near the buttons and in the NVME caps)
+
+Here's the final look:
+![image](https://cdn.hackclub.com/01a16c9c-c8a9-70ea-bee4-26d0068c3356/Screenshot%202026-10-24%20120110.png)
+
+![image](https://cdn.hackclub.com/01a16c9c-ca53-7e1b-8919-a65e7ba4ac6d/Screenshot%202026-10-24%20120121.png)
+
+![image](https://cdn.hackclub.com/01a16c9c-cbae-7e75-b46e-945b4f70fdce/Screenshot%202026-10-24%20120139.png)
+
+![image](https://cdn.hackclub.com/01a16c9c-cd64-7e2c-89d3-e2ca1fc14573/Screenshot%202026-10-24%20120157.png)
+
+That's it for now, and I'll update the GitHub for this now
+
+Adios
+

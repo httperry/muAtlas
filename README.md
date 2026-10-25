@@ -14,15 +14,32 @@
 
 ---
 
-**Navigate:** [Schematics](./Schematics/README.md) · [BOM](./BOM.md) · [Resources](./Resources/README.md) · [Contributing](./.github/CONTRIBUTING.md) · [Code of Conduct](./CODE_OF_CONDUCT.md)
+**Navigate:** [Schematics](./Schematics/README.md) · [PCB](./PCB/README.md) · [BOM](./BOM/README.md) · [Resources](./Resources/README.md) · [Contributing](./.github/CONTRIBUTING.md) · [Code of Conduct](./CODE_OF_CONDUCT.md)
 
 ---
 
 ## Overview
 
-Project μAtlas is a custom PCB carrier board and 3D-printed enclosure for the LattePanda Mu compute module. It fits a full NAS build — dual SATA drives, NVMe cache, 2.5GbE, Wi-Fi, and USB 3.2 — onto a 100x100mm footprint. Designed in EasyEDA as a Hack Club project.
+Project μAtlas is a custom PCB carrier board for the LattePanda Mu compute module. It fits a full NAS build — dual SATA drives, NVMe cache, 2.5GbE, Wi-Fi, and USB 3.2 — onto a 100x100mm footprint. Designed in EasyEDA as a Hack Club project.
 
-For detailed specs, see the [Schematics](./Schematics/README.md) and [BOM](./BOM.md).
+For detailed specs, see the [Schematics](./Schematics/README.md), [PCB](./PCB/README.md), and [BOM](./BOM/README.md).
+
+---
+
+## Board Preview
+
+<p align="center">
+  <img src="Resources/PCB_Images/Screenshot%202026-10-24%20120139.png" alt="μAtlas 3D Isometric View" width="850">
+</p>
+
+| Top Side (SoM & Power Rails) | Bottom Side (Dual M.2 & RTC Battery) |
+|:---:|:---:|
+| <img src="Resources/PCB_Images/Screenshot%202026-10-24%20120110.png" alt="Top View" width="420"> | <img src="Resources/PCB_Images/Screenshot%202026-10-24%20120121.png" alt="Bottom View" width="420"> |
+
+<p align="center">
+  <em>Rear I/O Profile (2.5GbE, HDMI, 4x USB-A):</em><br>
+  <img src="Resources/PCB_Images/Screenshot%202026-10-24%20120157.png" alt="Rear I/O Profile View" width="850">
+</p>
 
 ---
 
@@ -32,11 +49,11 @@ For detailed specs, see the [Schematics](./Schematics/README.md) and [BOM](./BOM
 |---|---|---|
 | PWR Management | ![Complete](https://img.shields.io/badge/Schematic-Complete-brightgreen?style=flat-square) | [View](./Schematics/PWR%20Management/README.md) |
 | SATA Connections | ![Complete](https://img.shields.io/badge/Schematic-Complete-brightgreen?style=flat-square) | [View](./Schematics/SATA%20Connections/README.md) |
-| SO-DIMM Connections | ![In Progress](https://img.shields.io/badge/Status-In%20Progress-orange?style=flat-square) | [View](./Schematics/SO-DIMM%20Connections/README.md) |
+| SO-DIMM Connections | ![Complete](https://img.shields.io/badge/Schematic-Complete-brightgreen?style=flat-square) | [View](./Schematics/SO-DIMM%20Connections/README.md) |
 | NVMe Connections | ![Complete](https://img.shields.io/badge/Schematic-Complete-brightgreen?style=flat-square) | [View](./Schematics/NVMe%20Connections/README.md) |
 | IO Connections | ![Complete](https://img.shields.io/badge/Schematic-Complete-brightgreen?style=flat-square) | [View](./Schematics/IO%20Connections/README.md) |
-| PCB Layout & Routing | ![Planned](https://img.shields.io/badge/Status-Planned-lightgrey?style=flat-square) | — |
-| Enclosure | ![Planned](https://img.shields.io/badge/Status-Planned-lightgrey?style=flat-square) | — |
+| PCB Layout & Routing | ![Complete](https://img.shields.io/badge/Status-Complete-brightgreen?style=flat-square) | [View](./PCB/README.md) |
+| Fabrication & Assembly | ![Ready](https://img.shields.io/badge/Files-Ready-brightgreen?style=flat-square) | [View](./PCB/Fabrication/README.md) |
 
 
 

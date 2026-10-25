@@ -8,6 +8,8 @@
 
 **Revision 1.0** — Drawn by httperry · HackClub Macondo · 2026-06-21
 
+M.2 E-Key (2230) interface schematic utilizing 1x PCIe Gen 3.0 lane and USB 2.0 signals from the LattePanda Mu for Wi-Fi / Bluetooth or AI accelerator modules.
+
 ---
 
 ## Schematic
@@ -23,3 +25,4 @@
 | [Networking.pdf](./Networking.pdf) | Schematic export (PDF) |
 | [SCH_μAtlas_2026-06-21.json](./SCH_%CE%BCAtlas_2026-06-21.json) | EasyEDA source (JSON) |
 | [NVMe_(Networking)_Ports.schdoc](./NVMe_(Networking)_Ports.schdoc) | Schematic document |
+| [87e84a7d-4a42-41b4-bb6e-7de45a3cd594-0002.png](../87e84a7d-4a42-41b4-bb6e-7de45a3cd594-0002.png) | EasyEDA Pro multi-sheet export (PNG) |

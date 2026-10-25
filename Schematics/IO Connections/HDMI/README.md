@@ -23,3 +23,4 @@
 | [Schematic_Atlas_2026-06-27.pdf](./Schematic_Atlas_2026-06-27.pdf) | Schematic export (PDF) |
 | [SCH_μAtlas_2026-06-27.json](./SCH_%CE%BCAtlas_2026-06-27.json) | EasyEDA source (JSON) |
 | [IO_HDMI.schdoc](./IO_HDMI.schdoc) | Schematic document |
+| [87e84a7d-4a42-41b4-bb6e-7de45a3cd594-0006.png](../87e84a7d-4a42-41b4-bb6e-7de45a3cd594-0006.png) | EasyEDA Pro multi-sheet export (PNG) |

@@ -23,3 +23,4 @@
 | [PWR Management.pdf](./PWR%20Management.pdf) | Schematic export (PDF) |
 | [SCH_μAtlas_2026-06-21.json](./SCH_%CE%BCAtlas_2026-06-21.json) | EasyEDA source (JSON) |
 | [PWR_Management_2026-06-21.schdoc](./PWR_Management_2026-06-21.schdoc) | Schematic document |
+| [87e84a7d-4a42-41b4-bb6e-7de45a3cd594-0000.png](./87e84a7d-4a42-41b4-bb6e-7de45a3cd594-0000.png) | EasyEDA Pro multi-sheet export (PNG) |
