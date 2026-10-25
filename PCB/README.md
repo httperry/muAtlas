@@ -17,10 +17,10 @@
 ### Board Renders & Views
 
 Detailed board screenshots and 3D preview renders from EasyEDA Pro are saved in [`../Resources/PCB_Images/`](../Resources/PCB_Images/):
-* [Render 1 — 3D Top View](../Resources/PCB_Images/Screenshot%202026-10-24%20120110.png)
-* [Render 2 — Isometric View](../Resources/PCB_Images/Screenshot%202026-10-24%20120139.png)
-* [Render 3 — Bottom View](../Resources/PCB_Images/Screenshot%202026-10-24%20120121.png)
-* [Render 4 — Layer Routing](../Resources/PCB_Images/Screenshot%202026-10-24%20120157.png)
+* [Render 1 - 3D Top View](../Resources/PCB_Images/Screenshot%202026-10-24%20120110.png)
+* [Render 2 - Isometric View](../Resources/PCB_Images/Screenshot%202026-10-24%20120139.png)
+* [Render 3 - Bottom View](../Resources/PCB_Images/Screenshot%202026-10-24%20120121.png)
+* [Render 4 - I/O View](../Resources/PCB_Images/Screenshot%202026-10-24%20120157.png)
 
 ---
 
