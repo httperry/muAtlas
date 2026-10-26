@@ -23,13 +23,13 @@ Index,LCSC#,MPN,Manufacturer,Package,Customer #,Description,RoHS,Quantity,MOQ,Mu
 22,C5349705,APH0630T4R7M,APV,"SMD,7x6.6mm",,"6A 4.7uH ±20% 9A 33mΩ Molded inductor SMD,7x6.6mm Fixed Inductors RoHS",yes,5,5,5,0.0799,0.40,https://www.lcsc.com/product-detail/C5349705.html
 23,C863036,RT0603DRE0731K2L,YAGEO,0603,,31.2kΩ 100mW 75V Thin Film Resistor ±0.5% ±50ppm/℃ 0603 Chip Resistor - Surface Mount RoHS,yes,50,50,50,0.0205,1.03,https://www.lcsc.com/product-detail/C863036.html
 24,C165140,TPD12S016RKTR,TI,UQFN-24(2x4),,I2C -40℃~+85℃ 3.4Gbps UQFN-24(2x4) Specialized RoHS,yes,1,1,1,0.9669,0.97,https://www.lcsc.com/product-detail/C165140.html
-25,C2832345,AS0A821-H2SB-7H,FOXCONN,-,,"Surface Mount 260P Inline Module Sockets ",yes,1,1,1,1.2226,1.22,https://www.lcsc.com/product-detail/C2832345.html
+25,C2832345,AS0A821-H2SB-7H,FOXCONN,-,,Surface Mount 260P Inline Module Sockets ,yes,1,1,1,1.2226,1.22,https://www.lcsc.com/product-detail/C2832345.html
 26,C2906869,FRC0402F4701TS,FOJAN,0402,,4.7kΩ ±1% 62.5mW 0402 Thick Film Resistor,yes,100,100,100,0.0015,0.15,https://www.lcsc.com/product-detail/C2906869.html
 27,C720548,USB-269-BRW,XUNPU,"Through Hole,Right Angle",,USB-A (USB TYPE-A) Receptacle Connector 4 Positionx2 Right Angle,yes,5,5,5,0.3004,1.50,https://www.lcsc.com/product-detail/C720548.html
 28,C130049,TPS2052BDR,TI,SOIC-8,,"2 Active High 500mA High Side Switch SOIC-8 Power Distribution Switches, Load Drivers RoHS",yes,2,1,1,0.5871,1.17,https://www.lcsc.com/product-detail/C130049.html
 29,C720616,HDMI-001S,XUNPU,SMD,,"HDMI-A Receptacle Connector 19 Position Surface Mount, Right Angle",yes,5,5,5,0.2451,1.23,https://www.lcsc.com/product-detail/C720616.html
 30,C398931,GRT21BR61E226ME13L,muRata,0805,,22uF ±20% 25V Ceramic Capacitor X5R 0805,yes,3,1,1,0.5254,1.58,https://www.lcsc.com/product-detail/C398931.html
-31,C22363833,CR2032-BS-6,Lian Xin Technology,SMD,,"Battery base Gold -40℃~+85℃ CR2032 SMD Blade Type Power Connector Assemblies ",yes,5,5,5,0.2321,1.16,https://www.lcsc.com/product-detail/C22363833.html
+31,C22363833,CR2032-BS-6,Lian Xin Technology,SMD,,Battery base Gold -40℃~+85℃ CR2032 SMD Blade Type Power Connector Assemblies ,yes,5,5,5,0.2321,1.16,https://www.lcsc.com/product-detail/C22363833.html
 32,C779941,DC-044F-5A-2.5,XKB Connection,"Through Hole,Right Angle",,"Power Barrel Connector Jack 2.5mm ID 5.6mm OD Through Hole, Right Angle",yes,1,1,1,0.5248,0.52,https://www.lcsc.com/product-detail/C779941.html
 33,C5137562,FCC0603B222K500CT,FOJAN,0603,,2.2nF ±10% 50V Ceramic Capacitor X7R 0603,yes,100,100,100,0.0046,0.46,https://www.lcsc.com/product-detail/C5137562.html
 34,C77055,GRM188R71H104KA93D,muRata,0603,,100nF ±10% 50V Ceramic Capacitor X7R 0603,yes,50,50,50,0.0116,0.58,https://www.lcsc.com/product-detail/C77055.html
@@ -55,6 +55,6 @@ Index,LCSC#,MPN,Manufacturer,Package,Customer #,Description,RoHS,Quantity,MOQ,Mu
 54,C3013605,RTL8125BG-CG,REALTEK,QFN-48-EP(6x6),,"QFN-48-EP(6x6) Drivers, Receivers, Transceivers ",yes,1,1,1,4.4208,4.42,https://www.lcsc.com/product-detail/C3013605.html
 55,C711505,RT7-174AAM1A,UDE Corp,"Through Hole,Right Angle",,"Jack Modular Connector RJ45 Through Hole, Right Angle Shielded",yes,1,1,1,2.0439,2.04,https://www.lcsc.com/product-detail/C711505.html
 56,C21519,MPZ2012S601AT000,TDK,0805,,600Ω@100MHz 1 Line Ferrite Bead 0805 2A 100mΩ,yes,10,10,10,0.0296,0.30,https://www.lcsc.com/product-detail/C21519.html
-57,C22471099,XRIM201612S1R0MBCA,XR,0806,,"5A 1uH ±20% 30mΩ 5A Molded inductor 0806 Fixed Inductors ",yes,10,10,10,0.0352,0.35,https://www.lcsc.com/product-detail/C22471099.html
+57,C22471099,XRIM201612S1R0MBCA,XR,0806,,5A 1uH ±20% 30mΩ 5A Molded inductor 0806 Fixed Inductors ,yes,10,10,10,0.0352,0.35,https://www.lcsc.com/product-detail/C22471099.html
 58,C81034,MPZ2012S601ATD25,TDK,0805,,600Ω@100MHz 1 Line Ferrite Bead 0805 2A 100mΩ,yes,10,10,10,0.0376,0.38,https://www.lcsc.com/product-detail/C81034.html
-59,-,"LattePanda Mu (Intel N100, 8GB, 64GB)","SOM1","MODULE_69.6x60mm","Intel N100, 8GB RAM, 64GB eMMC","DFR1146","DFRobot","DFR1146","DFRobot","https://www.dfrobot.com/product-2820.html"
+59,N/A,DFR1146,DFRobot,MODULE_69.6x60mm,SOM1,"LattePanda Mu - Micro x86 Compute Module (Intel N100, 8GB RAM, 64GB eMMC)",yes,1,1,1,359.00,359.00,https://www.dfrobot.com/product-2820.html
