@@ -387,3 +387,20 @@ That's it for now, and I'll update the GitHub for this now
 
 Adios
 
+# 2026-10-26: Finalized the costing and updated GitHub
+
+**Total time spent: 2 hours**
+
+Yallo!
+
+So this journal will be a short one, I just went ahead and got the costing from JLCPCB, then I went ahead and updated my GitHub for the new BOM and edited a few stuff in the ReadMe
+
+Here are the cart screenshots
+
+![image](https://cdn.hackclub.com/01a176a3-a641-797f-a955-7f26d4982e8e/Screenshot%202026-10-26%20104604.png)
+
+![image](https://cdn.hackclub.com/01a176a4-590a-777c-bbe1-6149bb976320/Screenshot%202026-10-26%20104646.png)
+
+That's it for today! signing off with the project
+
+Adios!
