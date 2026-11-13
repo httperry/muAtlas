@@ -404,3 +404,51 @@ Here are the cart screenshots
 That's it for today! signing off with the project
 
 Adios!
+
+# 2026-10-26: Created Blender Renders of the board by exporting .obj file from EasyEDA Pro
+
+**Total time spent: 4 hours**
+
+Yallo!
+
+So today I created the blender renders of the PCB with the LattePanda Mu attached in blender (as requested by Aarav in the return) and created these 8 renders of it
+
+So I started off with a great pace by exporting the 3D models from EasyEDA Pro as `.obj` files and downloading the `.step` file for the LattePanda Mu from the official GitHub repo and started placing the objects in the scene, it took me quite some time and google diving to figure out how the lighting works and how to move the camera around to take shots but eventually figured it out
+
+Here are the renders I made :woa:
+
+01 / Front Hero Image
+
+![image](https://cdn.hackclub.com/01a1d545-3ba6-7adb-a594-7bd5e0ae07ca/h5715ib4.png)
+
+02 / SO-DIMM Macro Shot
+
+![image](https://cdn.hackclub.com/01a1d545-4db5-7066-90e3-277ba3752d3e/vyxb3rlo.png)
+
+03 / A cool wallpaperable shot
+
+![image](https://cdn.hackclub.com/01a1d545-38fd-7dcb-b8a7-66e8f366992c/2ayzs3jo.png)
+
+04 / Back Hero Image
+
+![image](https://cdn.hackclub.com/01a1d545-49a2-7244-ad6b-da26bb90d390/tr65dcwh.png)
+
+05 / Back M.2 Traces and Detailed Shot
+
+![image](https://cdn.hackclub.com/01a1d545-3f10-71a8-8675-9981d47998f2/kpsxsa5h.png)
+
+06 / Monolithic shot
+
+![image](https://cdn.hackclub.com/01a1d545-59ab-7496-840b-2640b255e587/ywwscdp3.png)
+
+07 / Dual-Tone Lighting Shot
+
+![image](https://cdn.hackclub.com/01a1d545-44df-7ccb-b8ad-4add7bfb9eb9/peyqp3z9.png)
+
+08 / Low Angle Shot
+
+![image](https://cdn.hackclub.com/01a1d545-548c-79ff-90d6-354a4be0e9c5/wu0qwpp2.png)
+
+That's it for today!
+
+Adíos!
